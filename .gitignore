@@ -1,0 +1,21 @@
+# Ignore build and output directories
+build/
+dist/
+
+# Ignore logs, caches, and temporary files
+*.log
+*.cache
+*.temp
+
+# Ignore node_modules directories
+node_modules/
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.sublime-*
+
+# Ignore configuration files that contain secrets or personal information
+.env
+.env.*
+.env.*.local
